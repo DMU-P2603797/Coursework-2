@@ -1,0 +1,115 @@
+body {
+  background-color: red;
+  margin: 0px;
+}
+/* Changed the background colour of all pages to red to represent the primary colour of Liverpool. Also put a margin of 0px so the menu bar reaches the top of the screen. */
+
+.Badge {
+  float: right;
+  /* float right element was used so the image falls to the right of the page.*/
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  /* top and right margins of 0% were used so the elements push against the top and side of the screen with no gaps */
+  width: 100px;
+  height: 100px;
+
+}
+
+
+.navigationbar {
+  overflow: hidden;
+  background-color: yellow;
+  font-family: Verdana;
+}
+
+.navigationbar a {
+  float: left;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  font-family: verdana;
+  font-size: 2em;
+  color: yellow;
+  /* Text needed to be big so it appeals to the reader and in the centre of the page so it is the first thing the viewer sees. The colour of the text chosen was yellow as it is a good colour combination with red and Liverpool's away kit is yellow*/
+}
+
+.table {
+  display: inline-grid;
+  /* inserted inline grid so the pictures stand together in a structured grid format*/
+  grid-template-columns: auto auto auto;
+  column-gap: 5%;
+  /* creates a gap between each image*/
+  justify-content: center;
+  /* this puts the images in the centre of the page*/
+}
+
+.mosalah {
+  height: 250px;
+  width: 250px;
+  /* each image was inserted as the mo salah class element, with the exact same height and width*/
+}
+
+
+
+
+.squaddiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.players {
+  margin: 3%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ynwa {
+  display: flex;
+  justify-content: space-between;
+  /* creates space between the video and image element*/
+
+}
+
+.klopp {
+  height: 25%;
+  width: 25%;
+  -webkit-transform:scaleX(-1);
+  /* I wanted a symmetrical image of Klopp stood next to the video. I found the transform scale code from W3Schools which I inserted in to my CSS to make this happen*/
+}
+
+.klopp2 {
+  height: 25%;
+  width: 25%;
+}
+
+.anfield {
+  padding-left: 28%;
+  padding-right: 28%;
+  height: 480px;
+  width: 640px;
+}
+
+h1 {
+  text-align: center;
+  font-family: verdana;
+  font-size: 2.5em;
+}
+
+.list {
+  text-align: center;
+  font-family: verdana;
+  color: darkblue;
+  font-size: 2em;
+}
